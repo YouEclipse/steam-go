@@ -21,7 +21,10 @@ type GetRecentlyPlayedGamesParams struct {
 
 // GetRecentlyPlayedGamesResult defines the result of GetRecentlyPlayedGames.
 type GetRecentlyPlayedGamesResult struct {
-	//TODO
+	// The number of games
+	TotalCount int `json:"total_count"`
+	//
+	Games []*Game `json:"games"`
 }
 
 // GetRecentlyPlayedGames gets information about a player's recently played games.
