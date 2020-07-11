@@ -70,7 +70,7 @@ func main() {
 - [ ]  [IInventoryService Interface](https://partner.steamgames.com/doc/webapi/IInventoryService)
 - [ ]  [ILobbyMatchmakingService Interface](https://partner.steamgames.com/doc/webapi/ILobbyMatchmakingService)
 - [x]  [IPlayerService Interface](https://partner.steamgames.com/doc/webapi/IPlayerService)
-  - [ ] [GetRecentlyPlayedGames](https://partner.steamgames.com/doc/webapi/IPlayerService#GetRecentlyPlayedGames)
+  - [x] [GetRecentlyPlayedGames](https://partner.steamgames.com/doc/webapi/IPlayerService#GetRecentlyPlayedGames)
   - [x] [GetOwnedGames](https://partner.steamgames.com/doc/webapi/IPlayerService#GetOwnedGames)
   - [x] [GetSteamLevel](https://partner.steamgames.com/doc/webapi/IPlayerService#GetSteamLevel)
   - [x] [GetBadges](https://partner.steamgames.com/doc/webapi/IPlayerService#GetBadges)
